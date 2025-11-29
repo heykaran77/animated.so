@@ -37,7 +37,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "instrument-serif-italic";
+  src: url("/fonts/InstrumentSerif-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
 @theme {
   --font-sfpro: "sf-pro", sans-serif;
   --font-serif: "instrument-serif", serif;
+  --font-serifitalic: "instrument-serif-italic", serif;
 }
