@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* SF Pro Font Faces */
+@font-face {
+  font-family: "sf-pro";
+  src: url("/fonts/SF-Pro-Text-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sf-pro";
+  src: url("/fonts/SF-Pro-Text-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sf-pro";
+  src: url("/fonts/SF-Pro-Text-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sf-pro";
+  src: url("/fonts/SF-Pro-Text-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Instrument Serif Font Face */
+@font-face {
+  font-family: "instrument-serif";
+  src: url("/fonts/InstrumentSerif-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --font-sfpro: "sf-pro", sans-serif;
+  --font-serif: "instrument-serif", serif;
+}
