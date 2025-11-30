@@ -1,16 +1,76 @@
-# React + Vite
+# Animated.so - Responsive Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an improved, responsive clone of the animated.so website. The original website lacked responsiveness, and I recreated it with full mobile and tablet support.
 
-Currently, two official plugins are available:
+## About This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**This was a part of my Tailwind CSS & Responsive Designing practice project.** I made an improved clone of the animated.so website, which was not responsive, and I made it fully responsive for all device sizes.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✨ Fully responsive design (mobile, tablet, desktop)
+- 🎨 Custom fonts (SF Pro & Instrument Serif)
+- 🎬 Video showcase with custom play button
+- 📊 Dashed grid background pattern
+- 🎯 CTA (Call-to-Action) card with gradient
+- ⚡ Built with React + Vite + Tailwind CSS
+- 🎭 Smooth animations and hover effects
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS 4.1
+- **Fonts**: Custom fonts (SF Pro, Instrument Serif)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/heykaran77/animated.so.git
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Container.jsx       # Layout wrapper with max-width
+│   ├── Grid.jsx            # SVG dashed grid background
+│   ├── Hero.jsx            # Hero section with title and CTA
+│   ├── CTACard.jsx         # Call-to-action card
+│   └── DemoCards.jsx       # Video showcase grid
+├── App.jsx                 # Main app component
+├── index.css               # Global styles and font imports
+└── main.jsx                # Entry point
+```
+
+## Future Enhancements (TODO)
+
+- [ ] Add more buttons and interactive elements
+- [ ] Implement dark/light mode functionality
+- [ ] Add animations and transitions
+- [ ] Mobile optimization improvements
+
+## License
+
+This project is open source and available under the MIT License.
+
+---
+
+Made with ❤️ as a practice project for mastering Tailwind CSS and responsive web design.
