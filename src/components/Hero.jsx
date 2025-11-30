@@ -1,9 +1,10 @@
 import Container from "./Container";
 import CTACard from "./CTACard";
+import DemoCards from "./DemoCards";
 
 const Hero = () => {
   return (
-    <Container className="space-y-8 px-4 py-8">
+    <Container className="space-y-8 px-4">
       <img
         src="/logo.webp"
         alt="animated.so"
@@ -20,6 +21,7 @@ const Hero = () => {
         Book a quick call
       </button>
       <CTACard />
+      <DemoCards />
     </Container>
   );
 };
