@@ -1,6 +1,7 @@
+import Button from "./Button";
 import Container from "./Container";
 import CTACard from "./CTACard";
-import DemoCards from "./DemoCards";
+import DemoCards from "./WorksCard";
 
 const Hero = () => {
   return (
@@ -22,6 +23,7 @@ const Hero = () => {
       </button>
       <CTACard />
       <DemoCards />
+      <Button />
     </Container>
   );
 };
