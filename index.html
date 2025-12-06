@@ -5,6 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Animated - Beautiful Animations for your App</title>
+    <script>
+      (function () {
+        let savedTheme = localStorage.getItem("theme");
+        let systemTheme = window.matchMedia(
+          "(prefers-color-scheme: dark)",
+        ).matches;
+        const root = document.documentElement;
+
+        let themeToApply;
+
+        if (savedTheme === "dark") {
+          themeToApply = "dark";
+        } else if (savedTheme === "light") {
+          themeToApply = "light";
+        } else {
+          themeToApply = systemTheme ? "dark" : "light";
+        }
+
+        if (themeToApply === "dark") {
+          root.classList.add("dark");
+          root.classList.remove("light");
+        } else {
+          root.classList.add("light");
+          root.classList.remove("dark");
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
