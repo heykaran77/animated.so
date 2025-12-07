@@ -51,10 +51,9 @@ const DemoCards = () => {
           Work That Speaks for Itself
         </h3>
         <p className="mx-auto max-w-sm text-center text-xs text-neutral-500 md:max-w-2xl md:text-sm">
-          A selection of product animations, promo edits, and show-ready reels
-          designed to elevate brands, creators, and podcasts. Every project is
-          crafted from the ground up with timing, clarity, and visual
-          storytelling that drives engagement.
+          Our visuals have helped founders 4–6× their engagement across launches
+          and ads. Every project here is built to drive clicks, retention, and
+          real user action.
         </p>
       </div>
       <div className="grid grid-cols-1 gap-6 px-4 md:grid-cols-3">
