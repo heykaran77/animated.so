@@ -7,7 +7,7 @@ import ThemeSwitch from "./components/themeSwitch";
 const App = () => {
   useTheme.getState().applyTheme(useTheme.getState().theme);
   return (
-    <div className="dark:bg-background relative isolate flex min-h-screen flex-col bg-amber-200">
+    <div className="dark:bg-background relative isolate flex min-h-screen flex-col selection:bg-orange-200 selection:text-orange-400">
       <Grid />
       <ThemeSwitch />
       <Container className="relative flex-1 py-6">
