@@ -15,7 +15,7 @@ const App = () => {
       </Container>
       <a
         href="#"
-        className="font-serifitalic mx-auto mb-4 text-xl font-medium text-neutral-700 italic transition-colors hover:text-neutral-900"
+        className="font-serifitalic mx-auto mb-4 text-xl font-medium text-neutral-700 italic transition-colors hover:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-300"
       >
         animated.so
       </a>

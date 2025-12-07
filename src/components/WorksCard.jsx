@@ -47,7 +47,7 @@ const DemoCards = () => {
   return (
     <>
       <div>
-        <h3 className="font-sfpro mb-2 bg-linear-to-b from-neutral-800 to-neutral-500 bg-clip-text text-center text-4xl font-bold tracking-[-4px] text-transparent md:text-5xl">
+        <h3 className="font-sfpro mb-2 bg-linear-to-b from-neutral-800 to-neutral-500 bg-clip-text text-center text-4xl font-bold tracking-[-4px] text-transparent md:text-5xl dark:from-neutral-100 dark:to-neutral-800">
           Work That Speaks for Itself
         </h3>
         <p className="mx-auto max-w-sm text-center text-xs text-neutral-500 md:max-w-2xl md:text-sm">

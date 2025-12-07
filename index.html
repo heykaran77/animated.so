@@ -7,7 +7,16 @@
     <title>Animated - Beautiful Animations for your App</title>
     <script>
       (function () {
-        let savedTheme = localStorage.getItem("theme");
+        let stored = localStorage.getItem("theme");
+        let savedTheme = null;
+        if (stored) {
+          try {
+            parsed = JSON.parse(stored);
+            savedTheme = parsed?.state?.theme;
+          } catch (error) {
+            console.error("Theme parse error", error);
+          }
+        }
         let systemTheme = window.matchMedia(
           "(prefers-color-scheme: dark)",
         ).matches;
