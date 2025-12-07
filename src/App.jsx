@@ -1,11 +1,15 @@
+import useTheme from "./app/useTheme";
 import Container from "./components/Container";
 import Grid from "./components/Grid";
 import Hero from "./components/Hero";
+import ThemeSwitch from "./components/themeSwitch";
 
 const App = () => {
+  useTheme.getState().applyTheme(useTheme.getState().theme);
   return (
-    <div className="relative isolate flex min-h-screen flex-col">
+    <div className="dark:bg-background relative isolate flex min-h-screen flex-col bg-amber-200">
       <Grid />
+      <ThemeSwitch />
       <Container className="relative flex-1 py-6">
         <Hero />
       </Container>
